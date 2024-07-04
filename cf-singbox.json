@@ -1,0 +1,1271 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:20123",
+      "external_ui": "",
+      "secret": "ID_z8xck8m4",
+      "external_ui_download_url": "",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": false,
+      "store_rdrc": false
+    }
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "domain_strategy": "ipv4_only",
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "🚀 节点选择",
+      "type": "selector",
+      "outbounds": [
+        "🎈 自动选择",
+        "电信🌐发布🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "🇸🇬 移动🌐更新🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "联通🌐通知🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "官方🌐优选🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "官方🌐订阅🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "🇭🇰 HK🐲™️【请勿测速】",
+        "🇭🇰 HK🐲™️【请勿测速】 2",
+        "🇭🇰 HK🐲™️【请勿测速】 3",
+        "🇭🇰 HK🐲™️【请勿测速】 4",
+        "🇭🇰 HK🐲™️【请勿测速】 5",
+        "🇭🇰 HK🐲™️【请勿测速】 6",
+        "🇭🇰 HK🐲™️【请勿测速】 7",
+        "🇭🇰 HK🐲™️【请勿测速】 8",
+        "🇭🇰 HK🐲™️【请勿测速】 9",
+        "🇭🇰 HK🐲™️【请勿测速】 10",
+        "🇸🇬 SG🐲™️【请勿测速】",
+        "🇸🇬 SG🐲™️【请勿测速】 2",
+        "🇸🇬 SG🐲™️【请勿测速】 3",
+        "🇸🇬 SG🐲™️【请勿测速】 4",
+        "🇸🇬 SG🐲™️【请勿测速】 5",
+        "🇸🇬 SG🐲™️【请勿测速】 6",
+        "🇸🇬 SG🐲™️【请勿测速】 7",
+        "🇸🇬 SG🐲™️【请勿测速】 8",
+        "🇸🇬 SG🐲™️【请勿测速】 9",
+        "🇸🇬 SG🐲™️【请勿测速】 10",
+        "🇯🇵 JP🐲™️【请勿测速】",
+        "🇹🇼 TW🐲™️【请勿测速】",
+        "🇹🇼 TW🐲™️【请勿测速】 2",
+        "🇹🇼 TW🐲™️【请勿测速】 3",
+        "🇹🇼 TW🐲™️【请勿测速】 4",
+        "🇹🇼 TW🐲™️【请勿测速】 5",
+        "🇹🇼 TW🐲™️【请勿测速】 6",
+        "🇹🇼 TW🐲™️【请勿测速】 7",
+        "🇹🇼 TW🐲™️【请勿测速】 8",
+        "🇹🇼 TW🐲™️【请勿测速】 9",
+        "🇰🇷 KR🐲™️【请勿测速】",
+        "🇰🇷 KR🐲™️【请勿测速】 2",
+        "🇰🇷 KR🐲™️【请勿测速】 3",
+        "🇰🇷 KR🐲™️【请勿测速】 4",
+        "🇰🇷 KR🐲™️【请勿测速】 5",
+        "🇰🇷 KR🐲™️【请勿测速】 6",
+        "🇺🇸 US🐲™️【请勿测速】",
+        "🇺🇸 US🐲™️【请勿测速】 2",
+        "🇺🇸 US🐲™️【请勿测速】 3",
+        "🇺🇸 US🐲™️【请勿测速】 4",
+        "🇺🇸 US🐲™️【请勿测速】 5",
+        "🇺🇸 US🐲™️【请勿测速】 6"
+      ]
+    },
+    {
+      "tag": "🎈 自动选择",
+      "type": "urltest",
+      "outbounds": [
+        "电信🌐发布🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "🇸🇬 移动🌐更新🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "联通🌐通知🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "官方🌐优选🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "官方🌐订阅🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+        "🇭🇰 HK🐲™️【请勿测速】",
+        "🇭🇰 HK🐲™️【请勿测速】 2",
+        "🇭🇰 HK🐲™️【请勿测速】 3",
+        "🇭🇰 HK🐲™️【请勿测速】 4",
+        "🇭🇰 HK🐲™️【请勿测速】 5",
+        "🇭🇰 HK🐲™️【请勿测速】 6",
+        "🇭🇰 HK🐲™️【请勿测速】 7",
+        "🇭🇰 HK🐲™️【请勿测速】 8",
+        "🇭🇰 HK🐲™️【请勿测速】 9",
+        "🇭🇰 HK🐲™️【请勿测速】 10",
+        "🇸🇬 SG🐲™️【请勿测速】",
+        "🇸🇬 SG🐲™️【请勿测速】 2",
+        "🇸🇬 SG🐲™️【请勿测速】 3",
+        "🇸🇬 SG🐲™️【请勿测速】 4",
+        "🇸🇬 SG🐲™️【请勿测速】 5",
+        "🇸🇬 SG🐲™️【请勿测速】 6",
+        "🇸🇬 SG🐲™️【请勿测速】 7",
+        "🇸🇬 SG🐲™️【请勿测速】 8",
+        "🇸🇬 SG🐲™️【请勿测速】 9",
+        "🇸🇬 SG🐲™️【请勿测速】 10",
+        "🇯🇵 JP🐲™️【请勿测速】",
+        "🇹🇼 TW🐲™️【请勿测速】",
+        "🇹🇼 TW🐲™️【请勿测速】 2",
+        "🇹🇼 TW🐲™️【请勿测速】 3",
+        "🇹🇼 TW🐲™️【请勿测速】 4",
+        "🇹🇼 TW🐲™️【请勿测速】 5",
+        "🇹🇼 TW🐲™️【请勿测速】 6",
+        "🇹🇼 TW🐲™️【请勿测速】 7",
+        "🇹🇼 TW🐲™️【请勿测速】 8",
+        "🇹🇼 TW🐲™️【请勿测速】 9",
+        "🇰🇷 KR🐲™️【请勿测速】",
+        "🇰🇷 KR🐲™️【请勿测速】 2",
+        "🇰🇷 KR🐲™️【请勿测速】 3",
+        "🇰🇷 KR🐲™️【请勿测速】 4",
+        "🇰🇷 KR🐲™️【请勿测速】 5",
+        "🇰🇷 KR🐲™️【请勿测速】 6",
+        "🇺🇸 US🐲™️【请勿测速】",
+        "🇺🇸 US🐲™️【请勿测速】 2",
+        "🇺🇸 US🐲™️【请勿测速】 3",
+        "🇺🇸 US🐲™️【请勿测速】 4",
+        "🇺🇸 US🐲™️【请勿测速】 5",
+        "🇺🇸 US🐲™️【请勿测速】 6"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "300s",
+      "tolerance": 150
+    },
+    {
+      "tag": "🎯 全球直连",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "block"
+      ]
+    },
+    {
+      "tag": "🛑 全球拦截",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "🐟 漏网之鱼",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连"
+      ]
+    },
+    {
+      "tag": "GLOBAL",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "block",
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🎯 全球直连",
+        "🛑 全球拦截",
+        "🐟 漏网之鱼"
+      ]
+    },
+    {
+      "type": "vless",
+      "tag": "电信🌐发布🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+      "server": "aliyun.2096.us.kg",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 移动🌐更新🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+      "server": "aliyun.2096.us.kg",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "联通🌐通知🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+      "server": "aliyun.2096.us.kg",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "官方🌐优选🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+      "server": "aliyun.2096.us.kg",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "官方🌐订阅🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】",
+      "server": "aliyun.2096.us.kg",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】",
+      "server": "47.243.243.14",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 2",
+      "server": "47.243.74.220",
+      "server_port": 2053,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 3",
+      "server": "8.210.245.224",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 4",
+      "server": "47.242.171.94",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 5",
+      "server": "8.217.121.207",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 6",
+      "server": "202.81.235.17",
+      "server_port": 443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 7",
+      "server": "47.76.159.146",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 8",
+      "server": "38.147.188.243",
+      "server_port": 8001,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 9",
+      "server": "154.204.56.238",
+      "server_port": 34237,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK🐲™️【请勿测速】 10",
+      "server": "47.76.204.76",
+      "server_port": 2053,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】",
+      "server": "8.219.222.98",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 2",
+      "server": "47.236.164.215",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 3",
+      "server": "8.219.124.227",
+      "server_port": 2087,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 4",
+      "server": "47.236.232.148",
+      "server_port": 8443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 5",
+      "server": "8.219.174.213",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 6",
+      "server": "47.236.75.152",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 7",
+      "server": "47.237.86.185",
+      "server_port": 2096,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 8",
+      "server": "47.237.121.38",
+      "server_port": 2053,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 9",
+      "server": "43.156.119.123",
+      "server_port": 58000,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG🐲™️【请勿测速】 10",
+      "server": "43.134.166.213",
+      "server_port": 10444,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 JP🐲™️【请勿测速】",
+      "server": "206.190.236.96",
+      "server_port": 15393,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】",
+      "server": "211.72.156.10",
+      "server_port": 23555,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 2",
+      "server": "35.229.179.98",
+      "server_port": 25775,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 3",
+      "server": "203.69.248.40",
+      "server_port": 27381,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 4",
+      "server": "211.72.156.11",
+      "server_port": 23555,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 5",
+      "server": "34.80.80.147",
+      "server_port": 31103,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 6",
+      "server": "211.75.223.83",
+      "server_port": 23555,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 7",
+      "server": "60.249.89.74",
+      "server_port": 23555,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 8",
+      "server": "211.72.156.17",
+      "server_port": 23555,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW🐲™️【请勿测速】 9",
+      "server": "210.68.95.96",
+      "server_port": 443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 KR🐲™️【请勿测速】",
+      "server": "146.56.42.31",
+      "server_port": 48652,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 KR🐲™️【请勿测速】 2",
+      "server": "193.123.239.18",
+      "server_port": 49248,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 KR🐲™️【请勿测速】 3",
+      "server": "152.70.239.134",
+      "server_port": 34237,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 KR🐲™️【请勿测速】 4",
+      "server": "140.238.8.194",
+      "server_port": 15800,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 KR🐲™️【请勿测速】 5",
+      "server": "146.56.37.60",
+      "server_port": 20017,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 KR🐲™️【请勿测速】 6",
+      "server": "146.56.141.168",
+      "server_port": 47590,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US🐲™️【请勿测速】",
+      "server": "43.153.80.208",
+      "server_port": 443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US🐲™️【请勿测速】 2",
+      "server": "99.83.209.185",
+      "server_port": 443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US🐲™️【请勿测速】 3",
+      "server": "75.2.32.4",
+      "server_port": 443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US🐲™️【请勿测速】 4",
+      "server": "65.75.194.96",
+      "server_port": 23190,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US🐲™️【请勿测速】 5",
+      "server": "172.84.92.152",
+      "server_port": 58723,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US🐲™️【请勿测速】 6",
+      "server": "64.64.236.36",
+      "server_port": 443,
+      "uuid": "fec4c934-8b2c-4824-a4e4-04f4d1eadb9a",
+      "transport": {
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "type": "ws",
+        "headers": {
+          "Host": "page.cdsmao.dynv6.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "page.cdsmao.dynv6.net",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rule_set": [
+      {
+        "tag": "CATEGORY-ADS",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOIP-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOSITE-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOLOCATION-!CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "🎯 全球直连"
+      }
+    ],
+    "rules": [
+      {
+        "protocol": "dns",
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "GLOBAL"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "🛑 全球拦截"
+      },
+      {
+        "rule_set": "CATEGORY-ADS",
+        "outbound": "🛑 全球拦截"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOIP-CN",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOSITE-CN",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOLOCATION-!CN",
+        "outbound": "🚀 节点选择"
+      }
+    ],
+    "final": "🐟 漏网之鱼",
+    "auto_detect_interface": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "remote-dns",
+        "address": "tls://8.8.8.8",
+        "address_resolver": "remote-resolver-dns",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "local-dns",
+        "address": "https://223.5.5.5/dns-query",
+        "address_resolver": "resolver-dns",
+        "detour": "direct"
+      },
+      {
+        "tag": "resolver-dns",
+        "address": "223.5.5.5",
+        "detour": "direct"
+      },
+      {
+        "tag": "remote-resolver-dns",
+        "address": "8.8.8.8",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      }
+    ],
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "rules": [
+      {
+        "outbound": "any",
+        "disable_cache": true,
+        "server": "local-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "local-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "remote-dns"
+      },
+      {
+        "rule_set": "GEOSITE-CN",
+        "server": "local-dns"
+      },
+      {
+        "rule_set": "GEOLOCATION-!CN",
+        "server": "remote-dns"
+      }
+    ],
+    "fakeip": {
+      "enabled": false,
+      "inet4_range": "198.18.0.1/16",
+      "inet6_range": "fc00::/18"
+    },
+    "final": "remote-dns",
+    "strategy": "ipv4_only"
+  }
+}
